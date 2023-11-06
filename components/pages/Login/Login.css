@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.bg-image {
+  background-image: url('C:\ReactProjects\task4\public\assets\pexels-markus-spiske-6190327.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+form {
+  border: 1px solid rgb(0, 174, 255);
+
+}
+
+@keyframes continuous-glow {
+  0% {
+    text-shadow: 0 0 5px rgb(0, 217, 255);
+  }
+
+  100% {
+    text-shadow: 0 0 15px rgb(0, 217, 255);
+  }
+}
